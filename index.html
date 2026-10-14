@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>IDRISS MAMOUDOU DELI | Portfolio</title>
+<style>
+:root{--bg:#f5f6f8;--surface:#fff;--ink:#1b2433;--muted:#5d6678;--navy:#1f3a5f;--accent:#2f5d94;--line:#dde1e8;--chip:#e8edf4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151e;--surface:#171e2a;--ink:#e7ebf2;--muted:#9aa5b8;--navy:#9cc0ee;--accent:#7fb0ee;--line:#27303f;--chip:#212b3b}}
+:root[data-theme="dark"]{--bg:#10151e;--surface:#171e2a;--ink:#e7ebf2;--muted:#9aa5b8;--navy:#9cc0ee;--accent:#7fb0ee;--line:#27303f;--chip:#212b3b}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Calibri,Carlito,"Segoe UI",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.6}
+a{color:var(--accent)}
+.wrap{max-width:980px;margin:0 auto;padding:0 18px}
+header.hero{background:var(--navy);color:#fff;padding:44px 0 36px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) header.hero{background:#162338;color:#e7ebf2}}
+.hero h1{font-size:clamp(28px,7vw,46px);margin:0 0 6px;letter-spacing:.5px}
+.hero .role{font-size:clamp(16px,3.6vw,21px);opacity:.92;margin:0 0 16px}
+.hero p.lead{max-width:640px;margin:0 0 20px;opacity:.95}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-block;padding:10px 16px;border-radius:8px;border:1px solid rgba(255,255,255,.55);color:#fff;text-decoration:none;font-weight:600;font-size:15px}
+.btn.solid{background:#fff;color:#1f3a5f;border-color:#fff}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);overflow-x:auto;white-space:nowrap}
+nav .wrap{display:flex;gap:4px}
+nav a{padding:12px 12px;text-decoration:none;color:var(--muted);font-weight:600;font-size:14px}
+nav a:hover{color:var(--accent)}
+section{padding:34px 0 6px}
+h2{color:var(--navy);font-size:24px;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.card h3{margin:0 0 4px;font-size:18px;color:var(--navy)}
+.card .meta{color:var(--muted);font-size:13.5px;margin:0 0 8px}
+.card p{margin:0 0 8px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.tag{background:var(--chip);color:var(--ink);border-radius:999px;padding:2px 10px;font-size:12.5px}
+.stats{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));margin-top:16px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center}
+.stat b{display:block;font-size:26px;color:var(--navy)}
+.stat span{font-size:13px;color:var(--muted)}
+.tl{border-left:3px solid var(--line);margin-left:6px;padding-left:16px}
+.tl .item{margin-bottom:18px;position:relative}
+.tl .item:before{content:"";position:absolute;left:-23px;top:7px;width:11px;height:11px;border-radius:50%;background:var(--accent)}
+.tl h3{margin:0;font-size:17px;color:var(--navy)}
+.tl .meta{color:var(--muted);font-size:13.5px;margin:0 0 4px}
+.tl p{margin:0}
+ul.plain{margin:0;padding-left:18px}
+ul.plain li{margin-bottom:6px}
+.contact{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px;margin-bottom:30px}
+.contact p{margin:4px 0}
+footer{text-align:center;color:var(--muted);font-size:13px;padding:18px 0 30px}
+</style>
+</head>
+<body>
+<header class="hero">
+<div class="wrap">
+<h1>IDRISS MAMOUDOU DELI</h1>
+<p class="role">Ingénieur de conception, développeur et analyste de données</p>
+<p class="lead">Je suis diplômé en transport et stockage des hydrocarbures (Bac+5) et je développe des logiciels de gestion pour des structures réelles : hôpitaux, écoles, commerces, laboratoires photo. Je travaille à Yaoundé, au Cameroun, en français et en anglais.</p>
+<div class="btns">
+<a class="btn solid" href="mailto:idrissmamoudou2@gmail.com">M'écrire</a>
+<a class="btn" href="tel:+237696701784">+237 696 701 784</a>
+<a class="btn" href="https://linkedin.com/in/idriss-mamoudou-deli">LinkedIn</a>
+</div>
+</div>
+</header>
+<nav><div class="wrap">
+<a href="#apropos">À propos</a><a href="#experience">Expérience</a><a href="#logiciels">Logiciels</a><a href="#ingenierie">Ingénierie</a><a href="#competences">Compétences</a><a href="#formation">Formation</a><a href="#contact">Contact</a>
+</div></nav>
+<main class="wrap">
+
+<section id="apropos">
+<h2>À propos</h2>
+<p>J'ai commencé par l'ingénierie pétrolière et gazière, avec un stage à la SONARA et un mémoire sur les pénuries de gaz domestique dans l'Extrême-Nord. J'ai ensuite ajouté l'analyse de données et le développement logiciel. Aujourd'hui je gère les achats et la logistique chez Ets ELTRAN, je dirige MDI_ Services et je construis des applications pour des clients qui n'ont pas toujours une connexion internet stable.</p>
+<p>Ce mélange me place entre le terrain et les chiffres. Je lis un bon de livraison, une fiche de stock et un tableau de bord avec la même attention.</p>
+<div class="stats">
+<div class="stat"><b>11</b><span>projets logiciels</span></div>
+<div class="stat"><b>3</b><span>entreprises où j'interviens</span></div>
+<div class="stat"><b>2</b><span>langues de travail</span></div>
+<div class="stat"><b>300</b><span>crédits validés, Bac+5</span></div>
+</div>
+</section>
+
+<section id="experience">
+<h2>Expérience professionnelle</h2>
+<div class="tl">
+<div class="item"><h3>Fondateur et directeur général, MDI_ Services</h3><p class="meta">Yaoundé</p><p>Services numériques : analyse de données, développement web et logiciel, appui administratif. J'y conçois les applications présentées plus bas et le site de l'entreprise.</p></div>
+<div class="item"><h3>Responsable approvisionnement, logistique et suivi des commandes, Ets ELTRAN</h3><p class="meta">Depuis 2022</p><p>Je suis les commandes et les livraisons avec Airtable et une plateforme web dédiée. Depuis 2024, je m'occupe aussi de la gestion financière.</p></div>
+<div class="item"><h3>Négociateur immobilier et développeur web, Rachida &amp; Frères SARL</h3><p class="meta">Yaoundé</p><p>Négociation de biens immobiliers et travail sur les outils web de l'entreprise.</p></div>
+<div class="item"><h3>Assistant administratif médical, Healing Wayz</h3><p class="meta">À distance, bureau basé en Inde</p><p>Appui administratif au quotidien pour une équipe située en Inde.</p></div>
+<div class="item"><h3>Répétiteur privé, plateforme KELétude</h3><p>Cours de mathématiques, de physique et d'informatique/bureautique.</p></div>
+<div class="item"><h3>Vice-président de la division pédagogique, CAMSU</h3><p>Responsabilité associative au sein de la division pédagogique.</p></div>
+</div>
+</section>
+
+<section id="logiciels">
+<h2>Logiciels et applications</h2>
+<div class="grid">
+<div class="card"><h3>MDI HealthCare</h3><p class="meta">Gestion hospitalière, application de bureau</p><p>Onze modules pour les hôpitaux de district : patients, rendez-vous, consultations, hospitalisation, laboratoire, pharmacie, facturation, RH et rapports PDF/Excel. Huit rôles utilisateurs, tarifs différents pour patients assurés et non assurés, mots de passe hachés, verrouillage après 5 échecs et journal d'audit.</p><div class="tags"><span class="tag">Python</span><span class="tag">SQLite</span><span class="tag">PyInstaller</span></div></div>
+<div class="card"><h3>MDI School</h3><p class="meta">Gestion scolaire, application de bureau</p><p>Suivi des élèves, des classes et des enseignants pour un établissement scolaire.</p><div class="tags"><span class="tag">Python</span><span class="tag">CustomTkinter</span><span class="tag">SQLite</span></div></div>
+<div class="card"><h3>MDI-POS</h3><p class="meta">Caisse et point de vente, deux versions</p><p>La version en ligne s'installe comme une application et marche sans internet. La version serveur partage une base PHP et MySQL sur le réseau local, pour 6 postes et 4 dépôts, avec des rôles Facturation, Stock et Audit.</p><div class="tags"><span class="tag">PWA</span><span class="tag">PHP</span><span class="tag">MySQL</span></div></div>
+<div class="card"><h3>PhotoStock Pro</h3><p class="meta">Stock et ventes de papiers photo</p><p>Ventes au comptant et à crédit, dettes, bons de sortie, transferts entre entrepôts et rapports journaliers et mensuels. Tout tourne en réseau local, sans internet.</p><div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">SQLite</span></div></div>
+<div class="card"><h3>POS Stock Offline</h3><p class="meta">Facturation et inventaires hors ligne</p><p>Facturation, stock par emplacement, inventaires et transferts, livrés en exécutable Windows.</p><div class="tags"><span class="tag">Python</span><span class="tag">SQLite</span></div></div>
+<div class="card"><h3>Gestion de laboratoire photo</h3><p class="meta">Multi-filiales</p><p>Ventes, impression, transferts entre filiales et rapports, en application locale.</p></div>
+<div class="card"><h3>Gestion scolaire web</h3><p class="meta">Maternelle, primaire, secondaire</p><p>Gestion des classes, des élèves et des enseignants par niveau. Existe en version HTML et en version React.</p><div class="tags"><span class="tag">HTML</span><span class="tag">React</span></div></div>
+<div class="card"><h3>Cartable</h3><p class="meta">Cartes et badges scolaires</p><p>Création de cartes d'identité d'élèves avec photos et seyès. Versions HTML et React.</p><div class="tags"><span class="tag">HTML</span><span class="tag">React</span></div></div>
+<div class="card"><h3>Gestion de parfumerie</h3><p class="meta">Produits, stock, prix</p><p>Produits par catégorie, marques, volumes, seuils de stock, prix d'achat et de vente, fournisseurs et plusieurs devises. Versions HTML et React.</p><div class="tags"><span class="tag">HTML</span><span class="tag">React</span></div></div>
+<div class="card"><h3>Site de MDI_ Services</h3><p class="meta"><a href="https://mdi-services-website.vercel.app">mdi-services-website.vercel.app</a></p><p>Treize catégories de services, contact par WhatsApp, EmailJS ou appel direct. Hébergé sur Vercel.</p><div class="tags"><span class="tag">Vercel</span><span class="tag">EmailJS</span></div></div>
+<div class="card"><h3>Recherche d'emploi internationale</h3><p class="meta">Application web semi-automatisée</p><p>Elle cherche des offres avec l'API Brave Search et prépare les documents avec l'API Claude. L'envoi des e-mails reste manuel, c'est voulu.</p><div class="tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span></div></div>
+</div>
+</section>
+
+<section id="ingenierie">
+<h2>Projets d'ingénierie et dossiers techniques</h2>
+<p>Pour LES BATISSEURS SARL, j'ai coordonné et conçu trois projets touristiques et de loisirs dans l'Extrême-Nord, en tant qu'ingénieur de conception. J'ai aussi rédigé des dossiers de projet pour la Délégation Régionale du Tourisme et des Loisirs, et je présente un dossier d'irrigation à la fin.</p>
+<div class="grid">
+<div class="card"><h3>Complexe nautique du petit barrage de Mokolo</h3><p class="meta">Ouro-Tada, septembre 2021</p><p>Café en plein air, réfection de la digue, jardin d'art public, quai pour pirogues et water bikes, aires de jeux, sentiers, parking de 30 véhicules. Budget de 336 881 250 FCFA TTC, 29 emplois directs prévus.</p></div>
+<div class="card"><h3>Place de loisirs de Hina</h3><p class="meta">Mayo-Tsanaga, septembre 2021</p><p>Conception d'un espace de loisirs pour la commune de Hina.</p></div>
+<div class="card"><h3>Campement touristique de Gudur</h3><p class="meta">Mokolo, dossier visé le 20 janvier 2022</p><p>Campement sur le site historique de Gudur, porté par la même équipe et la même délégation que le projet de Mokolo.</p></div>
+<div class="card"><h3>Dargala Évasion Écologique</h3><p class="meta">Dargala, Diamaré, dossier du 25 novembre 2024</p><p>Dossier complet d'un campement touristique écoresponsable, rédigé pour la Délégation Régionale du Tourisme et des Loisirs de l'Extrême-Nord. Budget de 30 000 000 FCFA.</p></div>
+<div class="card"><h3>Site touristique de Kosseyel Bei</h3><p class="meta">Maroua 2ème, Diamaré</p><p>Dossier complet d'aménagement d'un site touristique avec campement, rédigé pour la même délégation. Budget de 50 000 000 FCFA.</p></div>
+<div class="card"><h3>Irrigation de 300 hectares à Mouldar</h3><p class="meta">Commune de Hina, Mayo-Tsanaga, septembre 2021</p><p>Dossier d'une exploitation en polyculture : 6 forages à pompage solaire automatique, 2 réservoirs, 2 abreuvoirs, 3 600 ml de rigoles en béton et formation d'environ 300 agriculteurs. Budget de 1 269 363 314 FCFA TTC.</p></div>
+</div>
+</section>
+
+<section id="competences">
+<h2>Compétences</h2>
+<div class="grid">
+<div class="card"><h3>Données et décisionnel</h3><div class="tags"><span class="tag">Power BI (certifié, mars 2025)</span><span class="tag">DAX</span><span class="tag">Excel VBA</span><span class="tag">Google Sheets</span><span class="tag">Airtable</span><span class="tag">Amplitude</span><span class="tag">KoboCollect</span></div></div>
+<div class="card"><h3>Développement</h3><div class="tags"><span class="tag">Python</span><span class="tag">CustomTkinter</span><span class="tag">Flask</span><span class="tag">SQLite</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">PHP / MySQL</span><span class="tag">reportlab / openpyxl</span></div></div>
+<div class="card"><h3>Gestion</h3><div class="tags"><span class="tag">SAGE 100</span><span class="tag">Microsoft Access</span><span class="tag">Approvisionnement</span><span class="tag">Logistique</span><span class="tag">Gestion de stock</span></div></div>
+<div class="card"><h3>Langues</h3><p>Français : langue maternelle.<br>Anglais : niveau professionnel.</p></div>
+</div>
+</section>
+
+<section id="formation">
+<h2>Formation et certifications</h2>
+<div class="tl">
+<div class="item"><h3>Ingénieur de conception, transport et stockage du pétrole et du gaz</h3><p class="meta">Université de Maroua (ENSMIP), 2015 à 2020</p><p>300 crédits validés. Dernière année à 16,03/20, mention très bien. Mémoire noté 17,50/20 : « Études des causes de pénuries de gaz domestique dans la Région de l'Extrême-Nord et solutions techniques possibles ».</p></div>
+<div class="item"><h3>Data analytics cloud et business intelligence</h3><p class="meta">Financée par PADESCE (Banque Mondiale)</p><p>Avec le certificat Google Cloud Associate Data Practitioner.</p></div>
+<div class="item"><h3>Stage industriel à la SONARA</h3><p class="meta">13 août au 28 septembre 2018</p><p>Expédition des produits raffinés par voie terrestre : visite des pompes, bras de chargement et bacs de stockage, suivi des chargements, rapport.</p></div>
+<div class="item"><h3>Stage à la Délégation Régionale des Mines de l'Extrême-Nord</h3><p class="meta">3 août au 30 octobre 2020, Maroua</p></div>
+<div class="item"><h3>Approvisionnement et logistique</h3><p class="meta">DisasterReady.org / Mercy Corps, février 2021</p><p>Cours de 5 heures accrédité par le Chartered Institute of Logistics and Transport.</p></div>
+<div class="item"><h3>Développement durable</h3><p class="meta">IFDD et Université Senghor, 2020</p></div>
+<div class="item"><h3>Secourisme</h3><p class="meta">Croix-Rouge Camerounaise, certificat délivré en août 2018</p></div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<div class="contact">
+<p>E-mail : <a href="mailto:idrissmamoudou2@gmail.com">idrissmamoudou2@gmail.com</a></p>
+<p>Téléphone : <a href="tel:+237696701784">+237 696 701 784</a> / <a href="tel:+237653869117">+237 653 869 117</a></p>
+<p>LinkedIn : <a href="https://linkedin.com/in/idriss-mamoudou-deli">linkedin.com/in/idriss-mamoudou-deli</a></p>
+<p>Site : <a href="https://mdi-services-website.vercel.app">mdi-services-website.vercel.app</a></p>
+<p>Yaoundé, Cameroun (Odza)</p>
+</div>
+</section>
+</main>
+<footer>IDRISS MAMOUDOU DELI &middot; Portfolio</footer>
+</body>
+</html>
