@@ -1,7 +1,15 @@
-# Portfolio de IDRISS MAMOUDOU DELI
+Portfolio d'Idriss Mamoudou Deli
 
-Portfolio professionnel : ingénieur de conception, développeur et analyste de données, basé à Yaoundé (Cameroun).
+Ce dépôt contient mon portfolio en ligne : https://idriss-mamoudou-deli.netlify.app/
 
-Page unique en HTML et CSS, sans dépendance. Pour la voir en local, ouvrir `index.html` dans un navigateur.
+Le site présente mon parcours d'ingénieur de conception en transport et stockage des hydrocarbures, mon travail de développeur et d'analyste de données, et les logiciels que j'ai construits pour des structures réelles à Yaoundé, au Cameroun.
 
-Contact : idrissmamoudou2@gmail.com
+Contenu du site
+Expérience professionnelle : Ets ELTRAN (approvisionnement, logistique et gestion financière), MDI_ Services (fondateur et directeur général), Rachida & Frères SARL, Healing Wayz, CAMSU
+Onze logiciels de gestion : hôpital, école, caisse, stock, laboratoire photo, parfumerie
+Projets d'ingénierie et dossiers techniques pour LES BATISSEURS SARL et la Délégation Régionale du Tourisme et des Loisirs de l'Extrême-Nord
+Compétences, formation et certifications
+Contact
+E-mail : idrissmamoudou2@gmail.com
+LinkedIn : https://linkedin.com/in/idriss-mamoudou-deli
+MDI_ Services : https://mdi-services-website.vercel.app
