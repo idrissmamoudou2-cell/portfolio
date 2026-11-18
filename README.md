@@ -8,7 +8,7 @@ Contenu du site
 Expérience professionnelle : Ets ELTRAN (approvisionnement, logistique et gestion financière), MDI_ Services (fondateur et directeur général), Rachida & Frères SARL, Healing Wayz, CAMSU
 Onze logiciels de gestion : hôpital, école, caisse, stock, laboratoire photo, parfumerie
 Projets d'ingénierie et dossiers techniques pour LES BATISSEURS SARL et la Délégation Régionale du Tourisme et des Loisirs de l'Extrême-Nord
-Compétences, formation et certifications
+Compétences, formation et certifications 
 Contact
 E-mail : idrissmamoudou2@gmail.com
 LinkedIn : https://linkedin.com/in/idriss-mamoudou-deli
